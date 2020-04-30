@@ -8,6 +8,21 @@ body {
     margin: 0 auto;
 }
 
-p:hover {
-    color: red;
+a:active {
+    color: white;
+    
+}
+
+a:hover {
+    color: grey;
+}
+
+a:visited {
+    color: purple;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
 }
