@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>A complicated form</title>
+</head>
+
+<body>
+    <div class="form-wrapper">
+        <span class="form-wrapper-title">Interesting application form</span>
+        <div class="name-wrapper">
+            <span class="name-wrapper-title">What is your name?</span>
+            <input type="text" id="nev">
+        </div>
+
+        <div class="checkbox-wrapper">
+            <span class="color-wrapper-title">What is your favorite color?</span>
+            <div class="checkbox-item">
+                <label for="red">Red</label>
+                <input type="checkbox" name="Red" id="red">
+            </div>
+
+            <div class="checkbox-item">
+                <label for="green">Green</label>
+                <input type="checkbox" name="Green" id="green">
+            </div>
+
+            <div class="checkbox-item">
+                <label for="blue">Blue</label>
+                <input type="checkbox" name="Blue" id="blue">
+            </div>
+
+            <div class="checkbox-item">
+                <label for="other">Other</label>
+                <input type="checkbox" name="other" id="other">
+                <input type="text" id="name">
+            </div>
+        </div>
+
+
+        <div class="radio-list">
+            <span>Would you like to become a developer?</span>
+            <div class="radio-item">
+                <input type="radio" id="yes" name="developer-answer">
+                <label for="yes">Yes</label>
+            </div>
+
+            <div class="radio-item">
+                <input type="radio" id="ano" name="developer-answer">
+                <label for="ano">Ano</label>
+
+            </div>
+
+            <div class="radio-item">
+                <input type="radio" id="igen" name="developer-answer">
+                <label for="igen">Igen</label>
+            </div>
+
+            <div class="radio-item">
+                <input type="radio" id="sign" name="developer-answer">
+                <label for="sign">----</label>
+            </div>
+
+        </div>
+
+        <div class="why">
+            <span>Why would you like to become a developer?</span>
+            
+            <div>
+                <textarea id="text" rows="10" cols="50"></textarea>
+            </div>
+        </div>
+
+        <button type="submit" class="submit">Submit</button>
+
+
+
+    </div>
+
+</body>
+
+</html>

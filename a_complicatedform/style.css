@@ -1,0 +1,90 @@
+.name-wrapper {
+    position: relative;
+    border: 1px solid grey;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.name-wrapper-title {
+    position: absolute;
+    top: -10px;
+    left: 10px; 
+    background: white;
+}
+
+.form-wrapper {
+    border: 1px solid black;
+    padding: 10px;
+    position: relative;
+    margin-top: 14px;
+    width: 400px;
+}
+
+.form-wrapper-title {
+    position: absolute;
+    top: -23px;
+    left: 10px;
+    background: white;
+    padding: 15px;
+}
+
+.checkbox-item label {
+    position: absolute;
+    left: 25px;
+}
+
+.checkbox-item {
+    position: relative;
+}
+
+.checkbox-wrapper {
+    border: 1px solid grey;
+    margin: 15px 0px 15px 5px;
+    position: relative;
+    padding: 15px;
+}
+
+.checkbox-wrapper span {
+    background: white;
+    position: absolute;
+    top: -12px;
+    left: 10px;
+}
+
+#name {
+    position: absolute;
+    left: 70px;
+}
+
+.radio-list {
+    border: 1px solid gray;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    position: relative;
+    padding: 15px;
+}
+
+.radio-list span {
+    background: white;
+    position: absolute;
+    top: -12px;
+    left: 10px;
+}
+
+
+.why {
+    border: 1px solid gray;
+    margin-top: 10px;
+    padding: 15px;
+    position: relative;
+}
+
+.why span {
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    background: white;
+}
+.submit {
+    margin-top: 15px;
+}
