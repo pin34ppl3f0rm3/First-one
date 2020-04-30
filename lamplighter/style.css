@@ -1,0 +1,26 @@
+.container div {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid green;
+
+}
+
+.container-under {
+    margin: 0 auto;
+    width: 300px;
+}
+
+
+
+.asteroid {
+    font-weight: bold;
+}
+
+
+.asteroid.big {
+    color: blue;
+}
+
+p {
+    background-color: yellow;
+}
