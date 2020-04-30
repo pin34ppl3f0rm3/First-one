@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+}
+
+.container  {
+    color: white;
+    width: 500px;
+    margin: 0 auto;
+}
+
+p:hover {
+    color: red;
+}
+}
