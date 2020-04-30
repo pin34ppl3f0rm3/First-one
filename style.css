@@ -2,15 +2,16 @@ body {
     background-color: black;
 }
 
-.container  {
+.container {
     color: white;
-    width: 500px;
-    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 a:active {
     color: white;
-    
 }
 
 a:hover {
